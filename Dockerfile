@@ -6,4 +6,4 @@ COPY antrema-caopenvpn.crt /usr/local/share/ca-certificates/antrema-caopenvpn.cr
 COPY antrema-caemail.crt /usr/local/share/ca-certificates/antrema-caemail.crt
 
 RUN apk --no-cache add ca-certificates \
-  update-ca-certificates
+  && update-ca-certificates
