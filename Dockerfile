@@ -1,4 +1,4 @@
-FROM hashicorp/vault:1.17.0
+FROM hashicorp/vault:1.17.1
 
 COPY antrema-cassl.crt /usr/local/share/ca-certificates/antrema-cassl.crt
 COPY antrema-caroot.crt /usr/local/share/ca-certificates/antrema-caroot.crt
